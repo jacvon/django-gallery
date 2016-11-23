@@ -7,3 +7,24 @@
 ![2](demo/2.png)
 
 
+## 使用方法
+1. Clone this repo
+```
+git clone https://github.com/lijg/Image-Gallery.git
+```
+
+2. virtualenv
+```
+virtualenv django
+source django/bin/activate
+pip install -r Image-Gallery/requirements.txt
+```
+
+3. run
+```
+cd Image-Gallery
+python manage.py makemigrations gallery
+python manage.py migrate
+python manage.py createsuperuser
+python manage.py runserver
+```
