@@ -10,12 +10,12 @@
  */
 
 body {
-  /*max-width: 750px;*/
+  max-width: 1280px;
   margin: 0 auto;
   padding: 1px;
   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, sans-serif;
   font-size: 1em;
-  line-height: 5em;
+  line-height: 1em;
   background: #222;
   color: #fff;
   -webkit-text-size-adjust: 100%;
