@@ -1,4 +1,4 @@
-# Image-Gallery
+# Django-Gallery
 
 基于[Django](https://github.com/django/django)和[Blueimp Gallery](https://github.com/blueimp/Gallery)的照片墙应用程序。
 
