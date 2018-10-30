@@ -23,7 +23,7 @@
     </div>
     <div id="links">
       {% if image_list %}
-      {% for image in image_list %}<a ref="{{ image.original.url }}" title="{{ image.title }}"><img src="{{ image.original | thumbnail_url:'75x75' }}" alt="{{ image.title }}"></a>{% endfor %}
+      {% for image in image_list %}<a href="{{ image.original.url }}" title="{{ image.title }}"><img src="{{ image.original | thumbnail_url:'75x75' }}" alt="{{ image.title }}"></a>{% endfor %}
       {% endif %}
     </div>
     <script src="{% static '/gallery/Gallery-2.21.3/js/blueimp-gallery.min.js' %}"></script>
